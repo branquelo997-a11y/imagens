@@ -1,0 +1,27 @@
+{
+  "name": "brainrot-images-api",
+  "version": "1.0.0",
+  "description": "API simples para armazenar e fornecer imagens de Brainrots para integração com a Hop API.",
+  "main": "server-images.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server-images.js",
+    "dev": "nodemon server-images.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [
+    "brainrot",
+    "api",
+    "images",
+    "express",
+    "discord",
+    "roblox"
+  ],
+  "author": "jalisso",
+  "license": "MIT"
+}
