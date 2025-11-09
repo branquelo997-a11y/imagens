@@ -8,8 +8,8 @@ app.use(express.json({ limit: "1mb" }));
 const brainrotImages = {
   "1x1x1x1": "https://static.wikia.nocookie.net/stealabr/images/3/39/1x1x1x1t.png/revision/latest/smart/width/40/height/30?cb=20251102022532",
   "La Casa Boo": "https://static.wikia.nocookie.net/stealabr/images/d/de/Casa_Booo.png/revision/latest/smart/width/40/height/30?cb=20251024155352",
-  "La Cucaracha": "https://static.wikia.nocookie.net/stealabr/images/4/46/La_Cucaracha.png/revision/latest/smart/width/40/height/30?cb=20250920195538",
-  "67": "https://static.wikia.nocookie.net/stealabr/images/8/83/BOIIIIIII_SIX_SEVEN_%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82.png/revision/latest/smart/width/40/height/30?cb=20251104182304",
+  "La Cucaracha": "https://static.wikia.nocookie.net/stealabr/images/4/46/La_Cucaracha.png/revision/latest?cb=20250920195538",
+  "67": "https://static.wikia.nocookie.net/stealabr/images/8/83/BOIIIIIII_SIX_SEVEN_%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82.png/revision/latest?cb=20251104182304",
   "La Extinct Grande": "https://static.wikia.nocookie.net/stealabr/images/c/cd/La_Extinct_Grande.png/revision/latest/smart/width/40/height/30?cb=20250914041757",
   "La Grande Combinasion": "https://static.wikia.nocookie.net/stealabr/images/d/d8/Carti.png/revision/latest/smart/width/40/height/30?cb=20250909171004",
   "Agarrini La Palini": "https://static.wikia.nocookie.net/stealabr/images/d/de/Agarrini_la_Palini.png/revision/latest/smart/width/40/height/30?cb=20250915181151",
@@ -56,7 +56,36 @@ const brainrotImages = {
   "Ketupat Kepat": "https://static.wikia.nocookie.net/stealabr/images/a/ac/KetupatKepat.png/revision/latest?cb=20251103172238",
   "Tang Tang Keletang": "https://static.wikia.nocookie.net/stealabr/images/8/8f/TangTang.png/revision/latest?cb=20251014024653",
   "Tictac Sahur": "https://static.wikia.nocookie.net/stealabr/images/6/6f/Time_moving_slow.png/revision/latest?cb=20251103171934",
-  "Torrtuginni Dragonfrutini": "https://static.wikia.nocookie.net/stealabr/images/8/8c/Crack.png/revision/latest?cb=20250919134500"
+  "Torrtuginni Dragonfrutini": "https://static.wikia.nocookie.net/stealabr/images/8/8c/Crack.png/revision/latest?cb=20250919134500",
+  "Los Mobilis": "https://static.wikia.nocookie.net/stealabr/images/2/27/Losmobil.png/revision/latest?cb=20251012023251",
+  "Los Karkeritos": "https://static.wikia.nocookie.net/stealabr/images/a/a8/Loskarkeritos.png/revision/latest?cb=20251006210532",
+  "Dul Dul Dul": "https://static.wikia.nocookie.net/stealabr/images/8/82/Dul_Dul_Dul.png/revision/latest?cb=20250909224519",
+  "Chimpanzini Spiderini": "https://static.wikia.nocookie.net/stealabr/images/4/49/Chimpanzini_Spiderini_Secret.webp/revision/latest?cb=20251108141108",
+  "Nuclearo Dinossauro": "https://static.wikia.nocookie.net/stealabr/images/9/99/THERE_ARE_BUGS_UNDER_YOUR_SKIN.png/revision/latest?cb=20250902180735",
+  "Noo my Candy": "https://static.wikia.nocookie.net/stealabr/images/1/12/Noo_my_candy_transparent.png/revision/latest?cb=20251105045041",
+  "Jackorilla": "https://static.wikia.nocookie.net/stealabr/images/3/32/Jackorilla.png/revision/latest?cb=20251025232823",
+  "Job Job Job Sahur": "https://static.wikia.nocookie.net/stealabr/images/0/03/Job.webp/revision/latest?cb=20250817162104",
+  "Rang Ring Bus": "https://static.wikia.nocookie.net/stealabr/images/2/2b/RingRangBus2.png/revision/latest?cb=20251018134839",
+  "Sammyni Spyderini": "https://static.wikia.nocookie.net/stealabr/images/9/98/Sammy_blud.png/revision/latest/scale-to-width-down/1000?cb=20250920142855",
+  "Tralaledon": "https://static.wikia.nocookie.net/stealabr/images/7/79/Brr_Brr_Patapem.png/revision/latest?cb=20250909171639",
+  "Tacorita Bicicleta": "https://static.wikia.nocookie.net/stealabr/images/0/0f/Gonna_rob_you_twin.png/revision/latest?cb=20251006133721",
+  "To to to Sahur": "https://static.wikia.nocookie.net/stealabr/images/5/58/Africa_by_toto_%28to_sahur%29.png/revision/latest?cb=20250924041210",
+  "Trickolino": "https://static.wikia.nocookie.net/stealabr/images/5/54/Trickortreat.png/revision/latest?cb=20251030020824",
+  "Yess my examine": "https://static.wikia.nocookie.net/stealabr/images/8/8f/Yessmyexamine.png/revision/latest?cb=20251006200210",
+  "Vulturino Skeletono": "https://static.wikia.nocookie.net/stealabr/images/e/e0/Vulturino.png/revision/latest?cb=20251012030529",
+  "Karkerkar Kurkur": "https://static.wikia.nocookie.net/stealabr/images/d/d9/Karkerkar_kurkur.png/revision/latest?cb=20250819015531",
+  "Headless Horseman": "https://static.wikia.nocookie.net/stealabr/images/f/ff/Headlesshorseman.png/revision/latest?cb=20251030020338",
+  "Horegini Boom": "https://static.wikia.nocookie.net/stealabr/images/5/51/Hboom.png/revision/latest?cb=20251018135659",
+  "Chicleteira Bicicleteira": "https://static.wikia.nocookie.net/stealabr/images/5/5a/Chicleteira.png/revision/latest?cb=20250921012655",
+  "Chicleteirina Bicicleteirina": "https://static.wikia.nocookie.net/stealabr/images/8/83/Chicleteirina_Bicicleteirina.png/revision/latest?cb=20251012024219",
+  "Celularcini Viciosini": "https://static.wikia.nocookie.net/stealabr/images/3/38/DO_NOT_GRAB_MY_PHONE%21%21%21.png/revision/latest?cb=20250914173250",
+  "Perrito Burrito": "https://static.wikia.nocookie.net/stealabr/images/6/6d/Yummytacodog.png/revision/latest?cb=20251003131610",
+  "Meowl": "https://static.wikia.nocookie.net/stealabr/images/b/b8/Clear_background_clear_meowl_image.png/revision/latest?cb=20251022133154",
+  "Strawberry Elephant": "https://static.wikia.nocookie.net/stealabr/images/5/58/Strawberryelephant.png/revision/latest?cb=20250830235735",
+  "Guerriro Digitale": "https://static.wikia.nocookie.net/stealabr/images/9/98/Guerrirodigitale.png/revision/latest?cb=20250830234708",
+  "Zombie Tralala": "https://static.wikia.nocookie.net/stealabr/images/6/62/ZombieTralala.png/revision/latest?cb=20251012025915"
+}
+
 };
 
 // CORS básico
