@@ -6,14 +6,14 @@ app.use(express.json({ limit: "1mb" }));
 
 // Armazenamento em memória
 const brainrotImages = {
-  "1x1x1x1": "https://static.wikia.nocookie.net/stealabr/images/3/39/1x1x1x1t.png/revision/latest/smart/width/40/height/30?cb=20251102022532",
-  "La Casa Boo": "https://static.wikia.nocookie.net/stealabr/images/d/de/Casa_Booo.png/revision/latest/smart/width/40/height/30?cb=20251024155352",
+  "1x1x1x1": "https://static.wikia.nocookie.net/stealabr/images/3/39/1x1x1x1t.png/revision/latest?cb=20251102022532",
+  "La Casa Boo": "https://static.wikia.nocookie.net/stealabr/images/d/de/Casa_Booo.png/revision/latest?cb=20251024155352",
   "La Cucaracha": "https://static.wikia.nocookie.net/stealabr/images/4/46/La_Cucaracha.png/revision/latest?cb=20250920195538",
   "67": "https://static.wikia.nocookie.net/stealabr/images/8/83/BOIIIIIII_SIX_SEVEN_%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82.png/revision/latest?cb=20251104182304",
-  "La Extinct Grande": "https://static.wikia.nocookie.net/stealabr/images/c/cd/La_Extinct_Grande.png/revision/latest/smart/width/40/height/30?cb=20250914041757",
-  "La Grande Combinasion": "https://static.wikia.nocookie.net/stealabr/images/d/d8/Carti.png/revision/latest/smart/width/40/height/30?cb=20250909171004",
-  "Agarrini La Palini": "https://static.wikia.nocookie.net/stealabr/images/d/de/Agarrini_la_Palini.png/revision/latest/smart/width/40/height/30?cb=20250915181151",
-  "La Sahur Combinasion": "https://static.wikia.nocookie.net/stealabr/images/e/eb/Sahuria.png/revision/latest/smart/width/40/height/30?cb=20250920025821",
+  "La Extinct Grande": "https://static.wikia.nocookie.net/stealabr/images/c/cd/La_Extinct_Grande.png/revision/latest?cb=20250914041757",
+  "La Grande Combinasion": "https://static.wikia.nocookie.net/stealabr/images/d/d8/Carti.png/revision/latest?cb=20250909171004",
+  "Agarrini La Palini": "https://static.wikia.nocookie.net/stealabr/images/d/de/Agarrini_la_Palini.png/revision/latest?cb=20250915181151",
+  "La Sahur Combinasion": "https://static.wikia.nocookie.net/stealabr/images/e/eb/Sahuria.png/revision/latest?cb=20250920025821",
   "La Secret Combinasion": "https://static.wikia.nocookie.net/stealabr/images/f/f2/Lasecretcombinasion.png/revision/latest?cb=20251006044448",
   "La Spooky Grande": "https://static.wikia.nocookie.net/stealabr/images/5/51/Spooky_Grande.png/revision/latest?cb=20251012022949",
   "La Supreme Combinasion": "https://static.wikia.nocookie.net/stealabr/images/5/52/SupremeCombinasion.png/revision/latest?cb=20250825130920",
@@ -84,6 +84,15 @@ const brainrotImages = {
   "Strawberry Elephant": "https://static.wikia.nocookie.net/stealabr/images/5/58/Strawberryelephant.png/revision/latest?cb=20250830235735",
   "Guerriro Digitale": "https://static.wikia.nocookie.net/stealabr/images/9/98/Guerrirodigitale.png/revision/latest?cb=20250830234708",
   "Zombie Tralala": "https://static.wikia.nocookie.net/stealabr/images/6/62/ZombieTralala.png/revision/latest?cb=20251012025915"
+  "Los Jobcitos": "https://static.wikia.nocookie.net/stealabr/images/a/af/LosJobcitos.png/revision/latest?cb=20251006202121",
+  "Los Karkeritos": "https://static.wikia.nocookie.net/stealabr/images/a/a8/Loskarkeritos.png/revision/latest?cb=20251006210532",
+  "Los Matteos": "https://static.wikia.nocookie.net/stealabr/images/8/8a/LosMatteos.png/revision/latest?cb=20250817040306",
+  "Los Spyderinis": "https://static.wikia.nocookie.net/stealabr/images/f/ff/Los_Spyderinis.png/revision/latest?cb=20250823230850",
+  "Los Hotspotsitos": "https://static.wikia.nocookie.net/stealabr/images/6/69/Loshotspotsitos.png/revision/latest?cb=20250818235914",
+  "Chachechi": "https://static.wikia.nocookie.net/stealabr/images/8/81/ChachechiNew.png/revision/latest?cb=20250928150109",
+  "Pot Pumpkin": "https://static.wikia.nocookie.net/stealabr/images/e/e9/PotHotpumkin.png/revision/latest?cb=20251108082242",
+  "Pumpkini Spyderini": "https://static.wikia.nocookie.net/stealabr/images/d/da/Sammypumpkin.png/revision/latest?cb=20251030021310",
+  "Pirulitoita Bicicleteira": "https://static.wikia.nocookie.net/stealabr/images/d/dc/Piruleta.png/revision/latest?cb=20251109011358"
 };
 
 // CORS básico
