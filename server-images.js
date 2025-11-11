@@ -92,6 +92,12 @@ const brainrotImages = {
   "Chachechi": "https://static.wikia.nocookie.net/stealabr/images/8/81/ChachechiNew.png/revision/latest?cb=20250928150109",
   "Pot Pumpkin": "https://static.wikia.nocookie.net/stealabr/images/e/e9/PotHotpumkin.png/revision/latest?cb=20251108082242",
   "Pumpkini Spyderini": "https://static.wikia.nocookie.net/stealabr/images/d/da/Sammypumpkin.png/revision/latest?cb=20251030021310",
+  "Ketchuru and Musturu": "https://static.wikia.nocookie.net/stealabr/images/1/14/Ketchuru.png/revision/latest?cb=20251021163857",
+  "Los Puggies": "https://static.wikia.nocookie.net/stealabr/images/c/c8/LosPuggies2.png/revision/latest?cb=20251109012744",
+  "Los Spaghettis": "https://static.wikia.nocookie.net/stealabr/images/d/db/LosSpaghettis.png/revision/latest?cb=20251109012155",
+  "Extinct Tralalero": "https://static.wikia.nocookie.net/stealabr/images/c/cd/Jaws.png/revision/latest?cb=20250914040916",
+  "Telemorte": "https://static.wikia.nocookie.net/stealabr/images/2/20/Telemorte.png/revision/latest?cb=20251030015504",
+  "Boatito Auratito": "https://static.wikia.nocookie.net/stealabr/images/6/68/Iola_.png/revision/latest?cb=20251028162905",
   "Pirulitoita Bicicleteira": "https://static.wikia.nocookie.net/stealabr/images/d/dc/Piruleta.png/revision/latest?cb=20251109011358"
 };
 
