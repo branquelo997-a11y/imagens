@@ -98,6 +98,16 @@ const brainrotImages = {
   "Extinct Tralalero": "https://static.wikia.nocookie.net/stealabr/images/c/cd/Jaws.png/revision/latest?cb=20250914040916",
   "Telemorte": "https://static.wikia.nocookie.net/stealabr/images/2/20/Telemorte.png/revision/latest?cb=20251030015504",
   "Boatito Auratito": "https://static.wikia.nocookie.net/stealabr/images/6/68/Iola_.png/revision/latest?cb=20251028162905",
+  "W or L": "https://static.wikia.nocookie.net/stealabr/images/2/28/Win_Or_Lose.png/revision/latest?cb=20251123084507",
+  "Lavadorito Spinito": "https://static.wikia.nocookie.net/stealabr/images/f/ff/Lavadorito_Spinito.png/revision/latest?cb=20251123122422",
+  "Fishino Clownino": "https://static.wikia.nocookie.net/stealabr/images/d/d6/Fishino_Clownino.png/revision/latest?cb=20251123122601",
+  "Orcaledon": "https://static.wikia.nocookie.net/stealabr/images/a/a6/Orcaledon.png/revision/latest?cb=20251119170121",
+  "Los Burritos": "https://static.wikia.nocookie.net/stealabr/images/9/97/LosBurritos.png/revision/latest?cb=20251123123907",
+  "Los Cucarachas": "https://static.wikia.nocookie.net/stealabr/images/a/ac/Los_Cucarachas_no_effect.png/revision/latest?cb=20251125124717",
+  "Swag Soda": "https://static.wikia.nocookie.net/stealabr/images/9/9f/Swag_Soda.png/revision/latest?cb=20251116003702",
+  "Los Planitos": "https://static.wikia.nocookie.net/stealabr/images/8/83/Los_Planitos.png/revision/latest?cb=20251123122230",
+  "Los Quesadillas": "https://static.wikia.nocookie.net/stealabr/images/9/99/LosQuesadillas.png/revision/latest?cb=20251123123650",
+  "Cuadramat and Pakrahmatmamat": "https://static.wikia.nocookie.net/stealabr/images/a/a3/Cuadramat.png/revision/latest?cb=20251126164937",
   "Pirulitoita Bicicleteira": "https://static.wikia.nocookie.net/stealabr/images/d/dc/Piruleta.png/revision/latest?cb=20251109011358"
 };
 
