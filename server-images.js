@@ -108,6 +108,7 @@ const brainrotImages = {
   "Los Planitos": "https://static.wikia.nocookie.net/stealabr/images/8/83/Los_Planitos.png/revision/latest?cb=20251123122230",
   "Los Quesadillas": "https://static.wikia.nocookie.net/stealabr/images/9/99/LosQuesadillas.png/revision/latest?cb=20251123123650",
   "Cuadramat and Pakrahmatmamat": "https://static.wikia.nocookie.net/stealabr/images/a/a3/Cuadramat.png/revision/latest?cb=20251126164937",
+  "Gobblino Uniciclino": "https://static.wikia.nocookie.net/stealabr/images/c/c5/Gobblino_Uniciclino.png/revision/latest?cb=20251126164826",
   "Pirulitoita Bicicleteira": "https://static.wikia.nocookie.net/stealabr/images/d/dc/Piruleta.png/revision/latest?cb=20251109011358"
 };
 
