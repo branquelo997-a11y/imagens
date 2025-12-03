@@ -7,6 +7,7 @@ app.use(express.json({ limit: "1mb" }));
 // Armazenamento em memória
 const brainrotImages = {
   "1x1x1x1": "https://static.wikia.nocookie.net/stealabr/images/3/39/1x1x1x1t.png/revision/latest?cb=20251102022532",
+  "Cooki and Milki": "https://static.wikia.nocookie.net/stealabr/images/9/9b/Cooki_and_milki.png/revision/latest?cb=20251106165517",
   "La Casa Boo": "https://static.wikia.nocookie.net/stealabr/images/d/de/Casa_Booo.png/revision/latest?cb=20251024155352",
   "La Cucaracha": "https://static.wikia.nocookie.net/stealabr/images/4/46/La_Cucaracha.png/revision/latest?cb=20250920195538",
   "67": "https://static.wikia.nocookie.net/stealabr/images/8/83/BOIIIIIII_SIX_SEVEN_%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82%F0%9F%98%82.png/revision/latest?cb=20251104182304",
